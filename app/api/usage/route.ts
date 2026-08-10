@@ -12,6 +12,8 @@ import { checkUsageLimit } from '@/lib/usage-limits';
 import { SecureLogger } from '@/lib/logger';
 import rateLimit, { getClientIP } from '@/lib/rate-limit';
 
+export const dynamic = 'force-dynamic';
+
 // ============================================================================
 // REQUIREMENT #1: RATE LIMITING
 // ============================================================================

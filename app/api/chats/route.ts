@@ -11,6 +11,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createServerClient, headersWithSupabaseCookies } from '@/lib/supabase';
 import rateLimit, { getClientIP } from '@/lib/rate-limit';
 
+export const dynamic = 'force-dynamic';
+
 // ============================================================================
 // REQUIREMENT #1: RATE LIMITING
 // ============================================================================
@@ -135,7 +137,6 @@ export async function GET(req: NextRequest) {
     );
   }
 }
-
 
 
 

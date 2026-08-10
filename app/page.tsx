@@ -10,7 +10,7 @@ import { ExampleQuestions } from '@/components/example-questions';
 import { AuthModal } from '@/components/auth-modal';
 import { Header } from '@/components/header';
 import { UsageMeter } from '@/components/usage-meter';
-import { BETA_QUERY_LIMIT } from '@/lib/usage-limits';
+import { BETA_QUERY_LIMIT } from '@/lib/usage-config';
 import { DEFAULT_JURISDICTION, Jurisdiction } from '@/types';
 import { toast } from 'sonner';
 

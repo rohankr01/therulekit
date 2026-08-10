@@ -13,6 +13,9 @@
 import { getAdminClient } from '@/lib/supabase-admin';
 import { Database } from '@/types';
 import { SecureLogger } from '@/lib/logger';
+import { BETA_QUERY_LIMIT } from '@/lib/usage-config';
+
+export { BETA_QUERY_LIMIT };
 
 type UserUsage = Database['public']['Tables']['user_usage']['Row'];
 
@@ -20,8 +23,6 @@ type UserUsage = Database['public']['Tables']['user_usage']['Row'];
  * Beta query limit per user
  * Set to 25 for closed beta, adjust as needed
  */
-export const BETA_QUERY_LIMIT = 25;
-
 /**
  * ✅ Check if user has remaining quota for queries
  *
@@ -163,4 +164,3 @@ export function formatUsageDisplay(used: number): string {
 
   return `${remaining} / ${BETA_QUERY_LIMIT} questions available`;
 }
-

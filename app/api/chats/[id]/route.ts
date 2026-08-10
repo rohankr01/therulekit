@@ -15,6 +15,8 @@ import rateLimit, { getClientIP } from '@/lib/rate-limit';
 import { z } from 'zod';
 import type { Database } from '@/types';
 
+export const dynamic = 'force-dynamic';
+
 // ============================================================================
 // REQUIREMENT #1: RATE LIMITING
 // ============================================================================
