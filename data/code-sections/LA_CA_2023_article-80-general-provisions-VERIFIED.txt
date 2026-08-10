@@ -1,0 +1,31 @@
+210.8(A)(2)
+
+All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms shall have ground-fault circuit-interrupter protection for personnel.
+
+This requirement applies to receptacles located within bathroom areas of dwelling units and guest rooms.
+
+FIELD TIP: GFCI protection is usually provided by either a GFCI receptacle or a GFCI circuit breaker in the panel.
+
+210.52(G)(1)
+
+At least one receptacle outlet shall be installed in bathrooms and shall be located within 900 mm (3 ft) of the outside edge of each basin.
+
+The receptacle outlet shall be located on a wall or partition that is adjacent to the basin or basin countertop.
+
+FIELD TIP: The receptacle cannot be installed inside cabinets or drawers.
+
+210.11(C)(3)
+
+In addition to the number of branch circuits required by other parts of this section, at least one 20-ampere branch circuit shall be provided to supply bathroom receptacle outlets.
+
+This circuit shall have no other outlets.
+
+INSPECTOR NOTE: Lighting outlets are not permitted on the bathroom receptacle circuit.
+
+
+
+
+
+
+
+

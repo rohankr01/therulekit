@@ -1,0 +1,475 @@
+JURISDICTION: Los Angeles County, CA
+CROSS-REFERENCE FILE: Common Electrical Code Violations & How to Fix Them
+SOURCE: LA County Code Title 27 (adopts 2022 CEC) + LA County Inspector Experience
+EFFECTIVE_DATE: January 1, 2023
+LEGAL_STATUS: Public Domain (Government Work) + Practical Guidance
+KEYWORDS: violations, inspection failures, common mistakes, code violations, fix, corrections
+
+================================================================================
+DECISION TREE: Avoiding Common Violations
+================================================================================
+
+START HERE: Want to avoid inspection failures?
+
+┌──────────────────────────────────────────────────────────────────┐
+│ Question: What type of electrical work are you doing?            │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                    │
+│ NEW CONSTRUCTION/MAJOR REMODEL?                                  │
+│   └─ Most common violations:                                    │
+│      1. Missing GFCI protection (bathrooms, kitchens, garages)  │
+│      2. Missing AFCI protection (bedrooms)                       │
+│      3. Improper grounding/bonding                               │
+│      4. Wrong wire sizing                                        │
+│      5. Inadequate working clearances                            │
+│      → Prevention: Hire experienced licensed contractor          │
+│      → Review: cross-reference files for specific areas          │
+│                                                                    │
+│ SERVICE UPGRADE?                                                  │
+│   └─ Most common violations:                                    │
+│      1. Only one ground rod (need 2 minimum)                    │
+│      2. Undersized service entrance conductor                    │
+│      3. Neutral-ground bond at wrong location                    │
+│      4. Missing circuit directory                                │
+│      5. Inadequate panel clearances                              │
+│      → Prevention: See cross-reference-service-upgrades-LA.txt  │
+│                                                                    │
+│ GARAGE WIRING?                                                    │
+│   └─ Most common violations (LA County specific!):             │
+│      1. Freezer outlet without GFCI (LA requires GFCI!)         │
+│      2. No GFCI on general garage outlets                        │
+│      3. No garage receptacles present                            │
+│      4. Missing lighting with wall switch                        │
+│      → Prevention: See cross-reference-garage-wiring-LA.txt     │
+│                                                                    │
+│ KITCHEN REMODEL?                                                  │
+│   └─ Most common violations:                                    │
+│      1. Counter outlets without GFCI                             │
+│      2. Only one small appliance circuit (need 2 minimum)       │
+│      3. Outlet spacing exceeded (4 feet max)                     │
+│      4. Island/peninsula without outlets                         │
+│      → Prevention: See cross-reference-kitchen-circuits-LA.txt  │
+│                                                                    │
+│ BATHROOM REMODEL?                                                 │
+│   └─ Most common violations:                                    │
+│      1. Receptacles without GFCI                                 │
+│      2. Outlet in tub/shower zone                                │
+│      3. Switch within reach of tub/shower                        │
+│      4. No receptacle near sink                                  │
+│      → Prevention: See cross-reference-bathroom-wiring-LA.txt   │
+│                                                                    │
+│ OUTDOOR/LANDSCAPE WIRING?                                         │
+│   └─ Most common violations:                                    │
+│      1. Outdoor outlets without GFCI                             │
+│      2. Non-weatherproof covers (need in-use type)              │
+│      3. Improper burial depth (underground wiring)               │
+│      4. Missing front or back outlet                             │
+│      → Prevention: See cross-reference-outdoor-circuits-LA.txt  │
+│                                                                    │
+│ SOLAR INSTALLATION?                                               │
+│   └─ Most common violations:                                    │
+│      1. Inadequate grounding system                              │
+│      2. Missing required labels/placards                         │
+│      3. 120% rule violation (breaker sizing)                     │
+│      4. DC disconnect not accessible                             │
+│      → Prevention: See cross-reference-solar-pv-LA.txt          │
+│                                                                    │
+└──────────────────────────────────────────────────────────────────┘
+
+================================================================================
+TOP 50 MOST COMMON ELECTRICAL CODE VIOLATIONS IN LA COUNTY
+================================================================================
+
+Organized by category and frequency (most common first):
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 1: GFCI PROTECTION VIOLATIONS (Most Common Overall)
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 1: No GFCI on Kitchen Counter Receptacles
+❌ Problem: Kitchen countertop outlets without GFCI protection
+   Why it fails: All counter outlets require GFCI (2022 CEC 210.8(A)(6))
+   Where: Kitchen remodels, new construction
+   How to fix: Install GFCI outlets or GFCI breaker at panel
+   Reference: 2022 CEC 210.8(A)(6)
+   Cost to fix: $15-30 per GFCI outlet OR $40-80 for GFCI breaker
+   Prevention: Plan GFCI protection for ALL kitchen counter outlets
+
+VIOLATION 2: No GFCI on Bathroom Receptacles
+❌ Problem: Bathroom outlets without GFCI protection
+   Why it fails: ALL bathroom receptacles require GFCI (2022 CEC 210.8(A)(1))
+   Where: Bathroom remodels, new bathrooms
+   How to fix: Install GFCI outlets or GFCI breaker
+   Reference: 2022 CEC 210.8(A)(1)
+   Cost to fix: $15-30 per outlet OR $40-80 for breaker
+   Prevention: GFCI mandatory for EVERY bathroom outlet (no exceptions)
+
+VIOLATION 3: No GFCI on Garage Receptacles (LA County Specific!)
+❌ Problem: Garage outlets without GFCI, especially freezer outlets
+   Why it fails: LA County requires GFCI on ALL garage receptacles
+   LA County specific: No exception for freezers/dedicated circuits
+   Where: Garages (most common LA County garage failure)
+   How to fix: Install GFCI outlets or GFCI breaker
+   Reference: 2022 CEC 210.8(A)(2) + LA County amendment
+   Cost to fix: $15-30 per outlet OR $40-80 for breaker
+   Prevention: Remember LA County is MORE restrictive than state code
+
+VIOLATION 4: No GFCI on Outdoor Receptacles
+❌ Problem: Outdoor outlets without GFCI protection
+   Why it fails: ALL outdoor receptacles require GFCI (2022 CEC 210.8(A)(3))
+   Where: Exterior outlets, patios, decks
+   How to fix: Install GFCI outlets or GFCI breaker
+   Reference: 2022 CEC 210.8(A)(3)
+   Cost to fix: $20-40 per WR GFCI outlet OR $40-80 for breaker
+   Prevention: GFCI + weatherproof covers required outdoors
+
+VIOLATION 5: GFCI Test Button Not Working
+❌ Problem: GFCI outlet doesn't trip when test button pressed
+   Why it fails: Defective GFCI or incorrect wiring
+   Where: Any GFCI location (inspector tests EVERY GFCI)
+   How to fix: Replace GFCI or correct wiring (line/load reversed)
+   Reference: 2022 CEC 210.8(D)
+   Cost to fix: $15-50
+   Prevention: Test GFCI before requesting inspection
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 2: AFCI PROTECTION VIOLATIONS (Very Common in New/Remodel Work)
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 6: Missing AFCI Breakers on Bedroom Circuits
+❌ Problem: Bedroom circuits without AFCI protection
+   Why it fails: Code requires AFCI for bedrooms and living areas
+   Where: New construction, bedroom additions, panel upgrades
+   How to fix: Install AFCI breakers on bedroom circuits
+   Reference: 2022 CEC 210.12
+   Cost to fix: $40-70 per AFCI breaker
+   Prevention: Check code year - AFCI required in newer homes
+
+VIOLATION 7: Standard Breakers Used Instead of AFCI
+❌ Problem: Regular breakers on circuits requiring AFCI
+   Why it fails: Living areas, dining rooms need AFCI protection
+   Where: Family rooms, dining rooms, hallways, closets
+   How to fix: Replace with AFCI breakers
+   Reference: 2022 CEC 210.12
+   Cost to fix: $40-70 per breaker
+   Prevention: Understand AFCI requirements for living spaces
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 3: GROUNDING & BONDING VIOLATIONS (Safety Critical)
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 8: Only One Ground Rod (Need Two Minimum)
+❌ Problem: Service entrance has only one ground rod
+   Why it fails: Code requires 2 ground rods minimum (6 feet apart)
+   Where: Service upgrades, new construction
+   How to fix: Install second ground rod, bond together
+   Reference: 2022 CEC 250.53(A)(2)
+   Cost to fix: $100-200
+   Prevention: Always install 2 ground rods for services
+
+VIOLATION 9: Neutral-Ground Bond at Sub-Panel
+❌ Problem: Neutral and ground bonded together in sub-panel
+   Why it fails: Creates parallel neutral path (safety hazard)
+   Where: Sub-panels, detached structures
+   How to fix: Remove neutral-ground bond from sub-panel
+   Reference: 2022 CEC 250.142
+   Cost to fix: $50-150
+   Prevention: Bond neutral-ground ONLY at main service panel
+
+VIOLATION 10: Inadequate Solar Array Grounding
+❌ Problem: Solar array frame not properly grounded to earth
+   Why it fails: Lightning protection and safety requirement
+   Where: Solar PV installations
+   How to fix: Install proper grounding electrode system
+   Reference: 2022 CEC 690.43-690.47
+   Cost to fix: $200-500
+   Prevention: Follow solar grounding requirements carefully
+
+VIOLATION 11: Missing Grounding Electrode Conductor
+❌ Problem: No ground wire from panel to ground rods
+   Why it fails: No path to earth ground (safety hazard)
+   Where: Service panels, sub-panels
+   How to fix: Install grounding electrode conductor to ground rods
+   Reference: 2022 CEC 250.64
+   Cost to fix: $200-500
+   Prevention: Verify ground wire properly sized and connected
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 4: WIRE SIZING & BREAKER VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 12: 20A Breaker on 14 AWG Wire
+❌ Problem: Breaker too large for wire gauge (fire hazard)
+   Why it fails: 14 AWG wire rated for 15A maximum
+   Where: Kitchen circuits, garage circuits, any 20A circuit
+   How to fix: Replace with 15A breaker OR rewire with 12 AWG
+   Reference: 2022 CEC 240.4(D)
+   Cost to fix: $20 (breaker) OR $200-500 (rewire)
+   Prevention: 20A circuit = 12 AWG minimum, 15A circuit = 14 AWG OK
+
+VIOLATION 13: Undersized Service Entrance Conductor
+❌ Problem: Wire too small for service amperage rating
+   Why it fails: Fire hazard from overheating
+   Where: Service upgrades (100A→200A)
+   How to fix: Replace with properly sized conductor
+   Reference: 2022 CEC Table 310.12
+   Cost to fix: $300-800
+   Prevention: 200A service requires 2/0 copper or 4/0 aluminum minimum
+
+VIOLATION 14: Wrong Wire Gauge for Circuit Length
+❌ Problem: Voltage drop exceeds 3% on long runs
+   Why it fails: Too small wire for distance
+   Where: Detached structures, long outdoor runs
+   How to fix: Upsize wire to reduce voltage drop
+   Reference: 2022 CEC 210.19
+   Cost to fix: $200-1,000 depending on length
+   Prevention: Calculate voltage drop for runs >100 feet
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 5: PANEL & BREAKER VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 15: Double-Tapped Breakers
+❌ Problem: Two wires connected to single breaker terminal
+   Why it fails: Loose connection risk (unless breaker rated for 2)
+   Where: Panels with insufficient spaces
+   How to fix: Install separate breaker OR use rated breaker
+   Reference: 2022 CEC 110.14
+   Cost to fix: $50-150
+   Prevention: One wire per breaker terminal
+
+VIOLATION 16: Missing Circuit Directory
+❌ Problem: Panel doesn't show what each breaker controls
+   Why it fails: Code requires circuit identification
+   Where: All panels (very common violation)
+   How to fix: Create accurate circuit directory
+   Reference: 2022 CEC 408.4
+   Cost to fix: $50-100
+   Prevention: Label circuits during installation
+
+VIOLATION 17: Inadequate Panel Working Clearances
+❌ Problem: Storage or obstructions in front of panel
+   Why it fails: Must have 36" × 30" × 6.5' clearance
+   Where: Garages, basements, utility rooms
+   How to fix: Remove obstructions, maintain clearances
+   Reference: 2022 CEC 110.26
+   Cost to fix: $0-500 (move items)
+   Prevention: Plan panel location with clearances in mind
+
+VIOLATION 18: Panel Located in Bathroom or Closet
+❌ Problem: Panel installed in prohibited location
+   Why it fails: Not permitted by code
+   Where: Older homes, poor planning
+   How to fix: Relocate panel to acceptable location
+   Reference: 2022 CEC 240.24(D)
+   Cost to fix: $1,500-4,000 (major relocation)
+   Prevention: Never install panels in bathrooms or clothes closets
+
+VIOLATION 19: Incompatible Breakers in Panel
+❌ Problem: Wrong brand breakers (e.g., Square D in GE panel)
+   Why it fails: Safety issue, may not function properly
+   Where: DIY installations, incorrect replacements
+   How to fix: Replace with manufacturer-approved breakers
+   Reference: 2022 CEC 110.3(B)
+   Cost to fix: $50-200
+   Prevention: Match breaker brand to panel brand
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 6: OUTLET LOCATION & SPACING VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 20: Kitchen Counter Outlet Spacing Exceeded
+❌ Problem: More than 4 feet between counter outlets
+   Why it fails: Code requires outlets every 4 feet maximum
+   Where: Kitchens
+   How to fix: Add outlets to meet spacing requirement
+   Reference: 2022 CEC 210.52(C)
+   Cost to fix: $75-150 per additional outlet
+   Prevention: Plan outlet spacing during design
+
+VIOLATION 21: No Receptacle Within 3 Feet of Bathroom Sink
+❌ Problem: No outlet near sink basin for grooming appliances
+   Why it fails: Code requires outlet for personal care
+   Where: Bathrooms
+   How to fix: Install outlet within 3 feet of sink
+   Reference: 2022 CEC 210.52(D)
+   Cost to fix: $100-200
+   Prevention: Plan sink area outlet during bathroom design
+
+VIOLATION 22: Missing Front or Back Outdoor Outlet
+❌ Problem: House doesn't have required outdoor receptacles
+   Why it fails: Code requires minimum 1 front + 1 back
+   Where: Older homes, new construction oversights
+   How to fix: Install missing outdoor outlet(s)
+   Reference: 2022 CEC 210.52(E)
+   Cost to fix: $150-400 per outlet
+   Prevention: Verify front + back outdoor outlets in plans
+
+VIOLATION 23: Receptacle in Tub/Shower Zone
+❌ Problem: Outlet within reach of tub or shower
+   Why it fails: Electrocution hazard near water
+   Where: Bathrooms (dangerous mistake)
+   How to fix: Relocate outlet 3+ feet from tub/shower
+   Reference: 2022 CEC 406.9(C)
+   Cost to fix: $150-300
+   Prevention: Maintain clearances from water sources
+
+VIOLATION 24: No Garage Receptacle Present
+❌ Problem: Garage has no electrical outlet at all
+   Why it fails: Code requires minimum 1 receptacle in garage
+   Where: Garages, carports
+   How to fix: Install GFCI-protected garage outlet
+   Reference: 2022 CEC 210.52(G)
+   Cost to fix: $100-200
+   Prevention: Include garage outlet in plans
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 7: WEATHERPROOFING & OUTDOOR VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 25: Non-Weatherproof Covers on Outdoor Outlets
+❌ Problem: Standard indoor covers used outdoors
+   Why it fails: Must be weatherproof in-use type
+   Where: Exterior outlets (extremely common)
+   How to fix: Replace with weatherproof in-use covers
+   Reference: 2022 CEC 406.9(B)
+   Cost to fix: $10-30 per cover
+   Prevention: Use in-use covers (stay closed with plug inserted)
+
+VIOLATION 26: Non-Weather-Resistant Receptacles Outdoors
+❌ Problem: Standard receptacles instead of WR type
+   Why it fails: Outdoor requires weather-resistant (WR) receptacles
+   Where: All exterior locations
+   How to fix: Replace with WR-rated receptacles
+   Reference: 2022 CEC 406.12
+   Cost to fix: $15-30 per receptacle
+   Prevention: Look for "WR" marking on outdoor receptacles
+
+VIOLATION 27: Outdoor Boxes Not Sealed Against Weather
+❌ Problem: Outdoor boxes not caulked or sealed
+   Why it fails: Water intrusion risk
+   Where: Exterior outlets, light fixtures
+   How to fix: Caulk all box penetrations
+   Reference: 2022 CEC 314.15
+   Cost to fix: $25-75
+   Prevention: Caulk during installation
+
+VIOLATION 28: Indoor Light Fixtures Used Outdoors
+❌ Problem: Non-exterior rated fixtures installed outside
+   Why it fails: Must be wet or damp location rated
+   Where: Exterior walls, soffits, patios
+   How to fix: Replace with exterior-rated fixtures
+   Reference: 2022 CEC 410.10
+   Cost to fix: $50-200 per fixture
+   Prevention: Check fixture rating (wet/damp location required)
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 8: UNDERGROUND WIRING VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 29: Improper Underground Burial Depth
+❌ Problem: Underground wiring too shallow
+   Why it fails: Safety (protection from digging damage)
+   Where: Outdoor circuits, detached structures, landscape lighting
+   How to fix: Re-trench and bury to proper depth
+   Reference: 2022 CEC 300.5(A)
+   Cost to fix: $200-800 (excavation + reburial)
+   Prevention: UF cable = 24" deep, PVC conduit = 18" deep
+
+VIOLATION 30: Indoor Romex Buried Underground
+❌ Problem: NM (Romex) cable buried instead of UF
+   Why it fails: NM not rated for wet/underground locations
+   Where: Underground outdoor circuits
+   How to fix: Replace with UF cable or THWN in conduit
+   Reference: 2022 CEC 300.5(B)
+   Cost to fix: $400-1,500 (excavate + replace)
+   Prevention: Use UF cable or conduit for underground
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 9: SWITCH & CLEARANCE VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 31: Switch Within Reach of Tub/Shower
+❌ Problem: Light switch accessible from tub or shower
+   Why it fails: Electrocution hazard when wet
+   Where: Bathrooms
+   How to fix: Relocate switch 5+ feet from tub/shower
+   Reference: 2022 CEC 404.4(C)
+   Cost to fix: $100-250
+   Prevention: Keep switches away from water sources
+
+VIOLATION 32: No Lighting with Wall Switch in Garage
+❌ Problem: Garage has no light fixture OR no wall switch
+   Why it fails: Code requires lighting controlled by wall switch
+   Where: Garages, carports
+   How to fix: Install light fixture + switch at entry
+   Reference: 2022 CEC 210.70(A)(2)(a)
+   Cost to fix: $100-250
+   Prevention: Include switched lighting in garage plans
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 10: SOLAR PV SPECIFIC VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 33: Missing Solar Labels/Placards
+❌ Problem: Required labels not present or incorrect
+   Why it fails: Code requires specific safety labeling
+   Where: Solar installations (very common)
+   How to fix: Install all required labels with correct specs
+   Reference: 2022 CEC 690.56
+   Cost to fix: $50-150
+   Prevention: Use pre-made label kits with correct information
+
+VIOLATION 34: Solar 120% Rule Violated
+❌ Problem: Main + solar breakers exceed 120% of bus bar
+   Why it fails: Panel overload risk
+   Where: Solar grid-tie interconnection
+   How to fix: Service upgrade OR reduce system OR line-side tap
+   Reference: 2022 CEC 705.12(B)(2)
+   Cost to fix: $2,000-5,000 (if service upgrade)
+   Prevention: Calculate before installing: (Main + Solar) ≤ 120% × Bus bar
+
+VIOLATION 35: DC Disconnect Not Accessible
+❌ Problem: DC disconnect switch blocked or too high
+   Why it fails: Must be accessible for safety
+   Where: Solar installations
+   How to fix: Relocate disconnect or remove obstruction
+   Reference: 2022 CEC 690.15
+   Cost to fix: $100-400
+   Prevention: Plan disconnect locations for easy access
+
+VIOLATION 36: Solar Conduit Overfilled
+❌ Problem: Too many wires in conduit (exceeds 40%)
+   Why it fails: Heat buildup, wire damage risk
+   Where: Solar DC and AC conduits
+   How to fix: Install larger conduit or reduce wire count
+   Reference: 2022 CEC 690.31, Table 1
+   Cost to fix: $200-600
+   Prevention: Calculate conduit fill percentage
+
+═══════════════════════════════════════════════════════════════════════════════
+CATEGORY 11: POOL/SPA VIOLATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+VIOLATION 37: No Class A GFCI on Pool Circuits
+❌ Problem: Standard 30mA GFCI used instead of 5mA Class A
+   Why it fails: Pools require more sensitive GFCI
+   Where: Swimming pools, spas
+   How to fix: Install Class A GFCI (5mA trip)
+   Reference: 2022 CEC 680.5(B)
+   Cost to fix: $100-300
+   Prevention: Pools need special Class A GFCI protection
+
+VIOLATION 38: Pool Equipment Not Bonded
+❌ Problem: Pool pump, light, etc. not bonded together
+   Why it fails: Creates shock hazard
+   Where: Pool/spa installations
+   How to fix: Install bonding conductor connecting all equipment
+   Reference: 2022 CEC 680.26
+   Cost to fix: $200-500
+   Prevention: Bond ALL pool equipment together
+
+VIOLATION 39: Grounding to Concrete Instead of Earth
+❌ Problem: Ground rod in concrete pad instead of soil
+   Why it fails: Inadequate earth ground
+   Where: Pool areas, outdoor equipment

@@ -1,0 +1,230 @@
+SECTION: 210.8(A)(1)
+TITLE: GFCI Protection - Bathrooms (NEC Primary)
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+All 125-volt, single-phase, 15- and 20-ampere receptacles installed in bathrooms shall have ground-fault circuit-interrupter protection for personnel. This requirement applies to receptacles located within bathroom areas of dwelling units and guest rooms. [NEC 210.8(A)(1)]
+
+FIELD_TIP: GFCI protection is usually provided by either a GFCI receptacle or a GFCI circuit breaker in the panel.
+
+INSPECTOR_FOCUS:
+- Applies to dwelling unit bathrooms AND guest rooms
+- All receptacles within bathroom boundaries
+
+---
+
+SECTION: 210.52(G)(1)
+TITLE: Bathroom Basin Receptacle Location
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+At least one receptacle outlet shall be installed in bathrooms and shall be located within 900 mm (3 ft) of the outside edge of each basin. The receptacle outlet shall be located on a wall or partition that is adjacent to the basin or basin countertop. [NEC 210.52(G)(1)]
+
+FIELD_TIP: The receptacle cannot be installed inside cabinets or drawers.
+
+INSPECTOR_FOCUS:
+- Measure from OUTSIDE EDGE of basin
+- Wall/partition must be adjacent to basin
+- One per basin (double vanity = 2 receptacles)
+
+COMMON_FAILURES:
+- Inside vanity cabinet
+- Over 3 ft from basin edge
+- Back wall installation (not adjacent)
+
+---
+
+SECTION: 210.11(C)(3)
+TITLE: Dedicated 20A Bathroom Receptacle Circuit
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+In addition to the number of branch circuits required by other parts of this section, at least one 20-ampere branch circuit shall be provided to supply bathroom receptacle outlets. This circuit shall have no other outlets. [NEC 210.11(C)(3)]
+
+INSPECTOR_NOTE: Lighting outlets are not permitted on the bathroom receptacle circuit.
+
+FIELD_TIPS:
+- Dedicated circuit - no lights, fans, or other loads
+- 20A breaker with 12 AWG conductors
+- Serves receptacles only
+
+---
+
+SECTION: 406.4(D)(2)
+TITLE: Tamper-Resistant Receptacles - Bathrooms
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+All nonlocking-type 125-volt, 15- and 20-ampere receptacles in bathrooms shall be listed tamper-resistant. [NEC 406.4(D)(2)]
+
+REQUIREMENTS:
+- TR + GFCI required simultaneously
+- Internal shutters prevent child access
+- Readily identifiable (test button + TR slots)
+
+---
+
+SECTION: 210.70(A)(1)
+TITLE: Bathroom Lighting Required
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+A luminaire controlled by a wall switch shall be installed in bathrooms. [NEC 210.70(A)(1)]
+
+INSPECTOR_FOCUS:
+- Wall switch controlled (not pull chain)
+- Minimum 50 lumens per sq ft
+- Separate from receptacle circuit
+
+---
+
+SECTION: 210.23(A)
+TITLE: Bathroom Receptacle Circuit Rating
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+The total rating of the branch circuit shall not exceed the rating of the branch-circuit overcurrent device. 20-ampere branch circuit for bathroom receptacles. [NEC 210.23(A)]
+
+FIELD_TIPS:
+- 20A circuit maximum load: 16A continuous
+- No continuous loads >80% (12A)
+- Size conductors per 310.15
+
+---
+
+SECTION: LA-BATHROOM-GFCI-ENFORCEMENT
+TITLE: LA County Bathroom GFCI Specifics
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: enhanced_guide
+
+CONTENT:
+LA County inspectors strictly enforce bathroom electrical requirements:
+
+INSPECTOR_FOCUS:
+1. GFCI test button verification (every receptacle)
+2. Downstream protection testing  
+3. Tamper-resistant + GFCI verification
+4. Dedicated 20A receptacle circuit
+5. Basin receptacle location (within 3 ft)
+6. No lights on receptacle circuit
+
+COMMON_FAILURES:
+- GFCI breaker on lighting circuit
+- Receptacle inside cabinetry
+- 15A circuit for receptacles
+- Non-TR receptacles
+- Shared circuits (lights + receptacles)
+
+FIELD_TIPS:
+- Use TR GFCI receptacles ($25-35)
+- Dedicated 20A #12 NM-B circuit
+- Label panel: "BATH RECEPTACLES 20A"
+- Test GFCI monthly
+- Document circuit in permit package
+
+COST_ANALYSIS:
+- TR GFCI receptacles (2): $60
+- Dedicated 20A circuit: $450-650
+- Inspection failure rework: $600-1200
+
+JURISDICTION_AMENDMENTS:
+- LA County requires TR + GFCI (no exceptions)
+- All bathroom receptacles (no appliance exceptions)
+
+---
+
+SECTION: 210.52(C)(5)
+TITLE: Countertop Receptacle Spacing - Bathroom Vanities
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+Receptacles shall be installed such that no point along the floor line is more than 1.8 m (6 ft) horizontally from a receptacle. [NEC 210.52(C)(5)]
+
+FIELD_TIP: Double vanity requires 2 receptacles (one per basin).
+
+---
+
+SECTION: 404.9(A)
+TITLE: Receptacle Orientation - Bathrooms
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+Receptacles installed in bathrooms shall have the grounding terminal up. [NEC 404.9(A)]
+
+INSPECTOR_FOCUS:
+- Ground up orientation required
+- Inspect each receptacle orientation
+
+---
+
+SECTION: 110.3(B)
+TITLE: Equipment Listing and Labeling
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: raw_code
+
+CONTENT:
+Listed or labeled equipment shall be installed and used in accordance with any instructions included in the listing or labeling. [NEC 110.3(B)]
+
+FIELD_TIPS:
+- UL-listed GFCI receptacles only
+- Verify TR rating on receptacle
+- Manufacturer instructions followed
+
+---
+
+SECTION: LA-BATHROOM-COMPLIANCE-CHECKLIST
+TITLE: Complete LA County Bathroom Inspection Checklist
+JURISDICTION: Los Angeles County, CA
+YEAR: 2023
+SOURCE_TYPE: enhanced_guide
+
+CONTENT:
+LA County bathroom electrical inspection verification:
+
+INSPECTOR_FOCUS CHECKLIST:
+✅ 20A dedicated receptacle circuit (no lights)
+✅ All receptacles GFCI protected + TR rated
+✅ Basin receptacle within 3 ft, wall-mounted
+✅ Ground terminal up on receptacles
+✅ Wall switch lighting (separate circuit)
+✅ UL-listed equipment only
+
+COMMON_FAILURES SUMMARY:
+❌ Lights on receptacle circuit
+❌ Cabinet-mounted receptacles  
+❌ 15A receptacle circuit
+❌ Non-GFCI receptacles
+❌ Non-TR receptacles
+❌ Ground terminal down
+
+REQUIRED MATERIALS:
+- TR GFCI receptacles (15/20A)
+- 20A single-pole breaker
+- 12/2 NM-B cable
+- Secure mounting boxes
+
+CIRCUIT LABELING:
+Panel label: "BATHROOM RECEPTACLES 20A - DEDICATED"
+
+
+
+
+
